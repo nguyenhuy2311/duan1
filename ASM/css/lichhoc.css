@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(112, 163, 169);
+    padding: 100px;
+    margin: 100px;
+}
+.container{
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
+    background: white;
+}
+.container>header .image{
+    width: 40%;
+    height: 100%;
+    left: 35%;
+    position: absolute;
+}
+.min-header{
+    color: rgb(105, 105, 199);
+    text-shadow: 2px 2px 1px white;
+    font-size: 20px;
+    left: 30%;
+    bottom: 5px;
+    text-transform: uppercase;
+}
+.container>header .image1{
+    width: 150px;
+    height: 150px;  
+    border-radius: 150px;
+    position: absolute;
+    left: 4%;
+    margin: 2px 0;
+    top: 1%;
+}   
+
+.container>header {
+    position: fixed;
+    height: 150px;
+    background-color: #97b1c8;
+    display: flex;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
